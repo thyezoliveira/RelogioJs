@@ -11,17 +11,30 @@ body {
 }
 
 body div#container {
-    height: 100%;
+    position: absolute;
+    top: 30%;
     width: 100%;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 body div#container main {
     background-color: #333;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     margin: 0 auto;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-top: #444 1px solid;
+    border-left: #444 1px solid;
+    box-shadow: 1px 2px 15px 1px #111;
+}
+
+body div#container main h1 {
+    font-weight: 100;
 }
